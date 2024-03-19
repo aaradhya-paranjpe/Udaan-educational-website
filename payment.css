@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("images/payment.jpeg");
+    background-size: contain;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+input[type="text"], button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 48%;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+a{
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #007bff; /* Blue background color */
+    padding: 15px 0;
+    text-align: center;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #0D6efd;
+    color: #E7ecef;
+    padding: 20px 0;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    
+ }
+ body{
+    background-color: grey;
+ }
+

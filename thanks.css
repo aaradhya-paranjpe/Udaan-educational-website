@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+ }
+
+ 
+ .submit{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: #0056b3;
+    color: white;
+ }
+ footer{
+    position: relative;
+    bottom: 0px;
+ }
+ .navbar {
+    background-color: #007bff; /* Blue background color */
+    padding: 15px 0;
+    text-align: center;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #0D6efd;
+    color: #E7ecef;
+    padding: 20px 0;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+ }
+ body{
+    background-color: grey;
+ }
+
+.thanks{
+    height: 350px;
+    width: 500px;
+    align-items: center;
+    background-image: url(images/thanks.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 300px;
+
+}
